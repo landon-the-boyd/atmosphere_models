@@ -3,7 +3,7 @@
 Overview
 --------
 
-This repository provides functions for reading IONEX files, interpolating TEC maps in space and time, converting geodetic coordinates, and computing pierce points / ionospheric mapping parameters. Additionally, the UNB3 atmospheric model is implemented.
+This repository provides functions for reading [IONEX](https://files.igs.org/pub/data/format/ionex1.pdf) files, interpolating TEC maps in space and time, converting geodetic coordinates, and computing pierce points / ionospheric mapping parameters. Additionally, the UNB3 atmospheric model is implemented.
 
 Functions
 -------------------------
