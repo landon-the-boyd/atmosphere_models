@@ -39,7 +39,7 @@ Re = 6378137 / sqrt(1 - e*e*sind(userLLA(1))*sind(userLLA(1))); % WGS84
 % interpolated to a time with interpTECMapTime() and then must be
 % interpolated to a location with interpTECMap()
 [ionMap,mapEpochs,mapLatitudes,dLon] = readionexfile(ionexFile);
-ionMap = ionMap .* 0.1; % This factor is from TEC to TECU
+ionMap = ionMap .* 0.1; % ION Maps have a scaling factor
 
 [ionoError,tropError,inView] = deal(nan(length(timeVec),length(tleStruct)));
 
